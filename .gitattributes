@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@King-cannibal
+King-cannibal
+/
+sunlight-goods
+Public
+2
+20
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+sunlight-goods/index.html
+@King-cannibal
+King-cannibal Update index.html
+Latest commit 2b12092 15 hours ago
+ History
+ 1 contributor
+684 lines (668 sloc)  24.7 KB
+
 # Auto detect text files and perform LF normalization
 * text=auto
 <doctype!>
@@ -148,8 +179,8 @@ document.write(Date());
         </style>
         <div6>
           <img src="https://live.staticflickr.com/65535/51660749067_b88bfb7d84_t.jpg" width="97" height="100" alt="starter kit">
-          <run style="font-size:22px;font-weight:bold;color:#ff3312;">starter kit for 2 skulls
-            <p>
+          <run style="font-size:22px;font-weight:bold;color:#ff3312;">starter kit for 2 skulls (only elytra and pic enchanted)
+                        <p>
             </p>
             <style>
             </style>
@@ -406,35 +437,7 @@ document.write(Date());
               document.getElementById("skulls").innerHTML = skulls;
             };
           </script>
-          </div14>
-          </div12>
-          <style>
-        div14 {
-          background-color: black;
-          width: 100px;
-          border: 3px solid darkred;
-          padding: 25px;
-          margin: 20px;
-          display: inline-block;
-        }
-      </style>
-      <div14>
-        <img src="https://live.staticflickr.com/65535/51692042335_475a6a5e34_t.jpg" width="99" height="100" alt="wither skull">
-        <p style="font-size:25px;font-weight:bold;color:#ff3312;">1 skull for a stack of sea lanterns
-          <p>
-          </p>
-          <style>
-          </style>
-          <!--- Don't use the same function twice : ) --->
-               <input type="button" value="trade! " onClick="onsea1(); onsea();" /></button>
-          <script type="text/javascript">
-            var skulls = 0;
-            function onsea1() {
-              skulls += 1;
-              document.getElementById("skulls").innerHTML = skulls;
-            };
-          </script>
-          </div14>
+          </div13>
 <script>
 
                 var clicks = 0;
@@ -646,18 +649,6 @@ document.write(Date());
                     document.getElementById("back").remove(button) ;
                   }
                 </script>
-                <script>
- function onsea() {
-    var newItem = document.createElement("dive") ;
-    newItem.innerHTML = "<font color=green><p></ul> stack of sea lanterns</p>" ;
-    document.getElementById("button").appendChild(newItem)
-    newItem.onclick = removeItem;
-    document.getElementById("list").appendChild(newItem)
-  }
-  function removeItem() {
-    document.getElementById("back").remove(button) ;
-  }
-</script>
                 <body>
 
        <run style="color:yellow;">
@@ -722,3 +713,16 @@ when u are ready to order screenshot your order and send its to the channel trad
                   </h2>
                 </u>
                 </doctype!>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
