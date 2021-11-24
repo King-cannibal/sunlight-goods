@@ -26,7 +26,7 @@ p {
 }
 .Frame {
     width: 80px;
-    background-color: black;
+    background-color: red;
     border: 10px solid darkred;
     padding: 34px;
     margin: 34px;
