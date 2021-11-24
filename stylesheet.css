@@ -25,11 +25,11 @@ p {
     margin-top: 15px;
 }
 .Frame {
-    width: 1125px;
+    width: 80%inherit;
     background-color: black;
-    border: 3px solid darkred;
-    padding: 5px;
-    margin: 5px;
+    border: 3% solid darkred;
+    padding: 5%inherit;
+    margin: 5%auto;
     display: inline-block;
     position: absolute;
     left: 25%;
