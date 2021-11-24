@@ -31,7 +31,6 @@ p {
     padding: 34px;
     margin: 34px;
     display: inline-block;
-    position: absolute;
     left: 5%;
 }
 .Frame::after {
