@@ -25,6 +25,7 @@ p {
     margin-top: 15px;
 }
 .Frame {
+      background-color: black;
     width: 80%auto;
     border: 10px solid darkred;
     padding: 34px;
@@ -33,8 +34,8 @@ p {
     left: 5px;
 }
 
-.Frame {
-      background-color: black;
+
+
 }
 .Frame::after {
     padding-left: 56.25%;
