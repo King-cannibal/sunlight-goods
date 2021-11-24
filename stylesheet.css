@@ -25,7 +25,7 @@ p {
     margin-top: 15px;
 }
 .Frame {
-      background-color: black;
+    background-color: black;
     width: 80px;
     border: 7px solid darkred;
     padding: 34px;
@@ -53,6 +53,7 @@ p {
     font-size: 25px;
     font-weight:bold;
     color:#ff3312;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
