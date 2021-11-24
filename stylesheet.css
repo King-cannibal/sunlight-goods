@@ -54,7 +54,6 @@ p {
     font-weight:bold;
     color:#ff3312;
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
