@@ -26,15 +26,11 @@ p {
 }
 .Frame {
       background-color: black;
-    width: 80%auto;
+    width: 80%;
     border: 10px solid darkred;
     padding: 34px;
     margin: 34px;
-    left: 5px;
-}
-
-
-
+    left: 5%;
 }
 .Frame::after {
     padding-left: 56.25%;
