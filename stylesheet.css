@@ -27,10 +27,11 @@ p {
 .Frame {
     width: 80%inherit;
     background-color: black;
-    border: 10% solid darkred;
-    padding: 34%inherit;
-    margin: 34%auto;
+    border: 10px solid darkred;
+    padding: 34px;
+    margin: 34px;
     display: inline-block;
+    position: absolute;
     left: 5%;
 }
 .Frame::after {
