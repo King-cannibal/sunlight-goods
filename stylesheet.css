@@ -27,9 +27,9 @@ p {
 .Frame {
     width: 80%inherit;
     background-color: black;
-    border: 3% solid darkred;
-    padding: 5%inherit;
-    margin: 5%auto;
+    border: 10% solid darkred;
+    padding: 34%inherit;
+    margin: 34%auto;
     display: inline-block;
     position: absolute;
     left: 5%;
