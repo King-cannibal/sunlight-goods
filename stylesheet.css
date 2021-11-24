@@ -31,7 +31,6 @@ p {
     padding: 34%inherit;
     margin: 34%auto;
     display: inline-block;
-    position: absolute;
     left: 5%;
 }
 .Frame::after {
