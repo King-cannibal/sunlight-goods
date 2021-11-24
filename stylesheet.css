@@ -25,8 +25,8 @@ p {
     margin-top: 15px;
 }
 .Frame {
-    width: 80px;
-    background-color: red;
+    background-color: black;
+    width: 80%auto;
     border: 10px solid darkred;
     padding: 34px;
     margin: 34px;
