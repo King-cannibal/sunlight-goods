@@ -27,10 +27,10 @@ p {
 .Frame {
       background-color: black;
     width: 80px;
-    border: 10px solid darkred;
+    border: 7px solid darkred;
     padding: 34px;
     margin: 34px;
-    left: 5%;
+    left: 5px;
 }
 .Frame::after {
     padding-left: 56.25%;
