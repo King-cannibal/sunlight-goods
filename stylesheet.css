@@ -30,7 +30,7 @@ p {
     margin: 5px;
     display: inline-block;
     position: absolute;
-    left: 25%;
+    left: 5%;
 }
 .Frame::after {
     padding-left: 56.25%;
