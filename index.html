@@ -262,13 +262,12 @@
                     </run>
                 </div>
             </div>
-<centre>
-            <form action="upload.php" method="post" enctype="multipart/form-data">
-              <run style="color:yellow;">  Select image to upload:  </run>
-              <input type="file" name="fileToUpload" id="fileToUpload">
-              <input type="submit" value="Upload Image" name="submit">
+            <form action='https://chart.googleapis.com/chart' method='POST'>
+              <input type='hidden' name='cht' value='qr' />
+              <input type='hidden' name='chs' value='300x300' />
+              <input type='hidden' name='chl' value='This is my QR code'/>
+              <input type='submit'  />
             </form>
-</center>
             <!-- Accumulated Prices -->
             <div class="Totals">
                 <p> <!-- Wither Skulls Total -->
