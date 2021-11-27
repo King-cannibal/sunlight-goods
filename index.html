@@ -312,9 +312,8 @@
           </additional_data>
       </type>
   </config>
-<style>
+<style
 define(['Magento_PageBuilder/js/content-type/uploader'], function (Uploader) {
-
         Preview.prototype.getUploader = function () {
             var initialImageValue = this.contentType.dataStore
                 .get(this.config.additional_data.uploaderConfig.dataScope, "");
@@ -327,7 +326,7 @@ define(['Magento_PageBuilder/js/content-type/uploader'], function (Uploader) {
                 initialImageValue,
             );
         };
-</style>
+/style>
 <div ...>
    ...
     <scope args="getUploader().getUiComponent()">
