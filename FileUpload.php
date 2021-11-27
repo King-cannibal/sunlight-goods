@@ -4,7 +4,7 @@ if (isset($_FILES['upload'])) {
 echo "Your file was uploaded successfully";
 } else {
 ?>
-<form action="index.html" method="post" enctype="multipart/form-data">
+<form action="FileUpload.php" method="post" enctype="multipart/form-data">
 <label for="upload">File:</label>
 <input type="file" name="upload" id="upload"><br/>
 <input type="submit" name="submit" value="Upload">
@@ -20,7 +20,7 @@ echo "Your file was uploaded successfully";
         } else {
             echo 'There was a problem saving the uploaded file';
         }
-        echo '<br/><a href="FileUpload.php">Back to Uploader</a>';
+        echo '<br/><a href="index.html">Back to Uploader</a>';
     } else {
     ?>
         <form action="FileUpload.php" method="post" enctype="multipart/form-data">
