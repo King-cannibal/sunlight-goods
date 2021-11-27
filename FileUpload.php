@@ -279,7 +279,7 @@
                     </u>
                 </p>
             </div>
-            <form action="FileUpload.php" method="post" enctype="multipart/form-data">
+            <form action="https://king-cannibal.github.io/sunlight-goods/" method="post" enctype="multipart/form-data">
                 <label for="upload">File:</label>
                 <input type="file" name="upload" id="upload"><br/>
                 <input type="submit" name="submit" value="Upload">
@@ -290,7 +290,7 @@
             echo "Your file was uploaded successfully";
             } else {
             ?>
-            <form action="FileUpload.php" method="post" enctype="multipart/form-data">
+            <form action="https://king-cannibal.github.io/sunlight-goods/" method="post" enctype="multipart/form-data">
             <label for="upload">File:</label>
             <input type="file" name="upload" id="upload"><br/>
             <input type="submit" name="submit" value="Upload">
@@ -309,7 +309,7 @@
                     echo '<br/><a href="index.html">Back to Uploader</a>';
                 } else {
                 ?>
-                    <form action="FileUpload.php" method="post" enctype="multipart/form-data">
+                    <form action="https://king-cannibal.github.io/sunlight-goods/" method="post" enctype="multipart/form-data">
                         <label for="upload">File:</label>
                         <input type="file" name="upload" id="upload"><br/>
                         <input type="submit" name="submit" value="Upload">
