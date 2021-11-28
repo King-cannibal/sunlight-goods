@@ -1,0 +1,119 @@
+body {
+    background-image: url('https://live.staticflickr.com/65535/51659408066_7bdc855554_o.jpg');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+}
+p {
+    text-align: center;
+}
+
+/* HTML Element Classes */
+.Title{
+    font-size: 100px;
+    font-weight: bold;
+    color: hsla(240,100%,50%,0.7);
+    margin-bottom: 0px;
+}
+.Subtitle {
+    font-size: 42px;
+    font-weight: bold;
+    color: hsla(240,100%,50%,0.7);
+    margin-top: 15px;
+}
+.Frame {
+    width: 85%;
+    background-color: black;
+    border: 3px solid darkred;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+}
+.Frame::after {
+    padding-left: 56.25%;
+    display: block;
+    content: '';
+}
+.flex-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.Option {
+    width: 350px;
+    height: 150px;
+    background-color: black;
+    border: 3px solid darkred;
+    padding: 25px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight:bold;
+    color:#ff3312;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Totals {
+    width: 70%;
+    height: 20%;
+    margin-left: 13.5%;
+    margin-bottom: -50px;
+    font-size:40px;
+    font-weight:bold;
+    color:#0000ffb3;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.FootNote {
+    width: 64%;
+    color: yellow;
+    font-size: 28px;
+    text-align: justify;
+    margin-left: 16%;
+    margin-bottom: 1%
+}
+
+/* HTML Element IDs */
+#Discord_Button {
+    background-color: #f4511e;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 32px;
+    margin: 4px 2px;
+    margin-left: 35.5%;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+#Discord_Button:hover {
+    opacity: 1
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 400px black;
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+/* Handle On Hover */
+::-webkit-scrollbar-thumb:hover {
+    background:  #b30000 ;
+}
